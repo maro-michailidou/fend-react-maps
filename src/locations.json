@@ -1,0 +1,83 @@
+[
+  {
+    "key": "key-kirikos",
+    "type": "church",
+    "name": "Church Saints Kirikos and Iouliti Veria",
+    "coordinates": {
+      "lat": 40.522752,
+      "lng": 22.205311
+    }
+  },
+  {
+    "key": "key-anargiros",
+    "type": "church",
+    "name": "Saints Anargyroi Church",
+    "coordinates": {
+      "lat": 40.525671,
+      "lng": 22.207779
+    }
+  },
+  {
+    "key": "key-jesus",
+    "type": "church",
+    "name": "Church Jesus Christ's",
+    "coordinates": {
+      "lat": 40.523632,
+      "lng": 22.206363
+    }
+  },
+  {
+    "key": "key-savvas",
+    "type": "church",
+    "name": "Saint Savvas of Kyriotissa",
+    "coordinates": {
+      "lat": 40.520794,
+      "lng": 22.204646
+    }
+  },
+  {
+    "key": "key-pentecost",
+    "type": "church",
+    "name": "Free Apostolic Church of Pentecost",
+    "coordinates": {
+      "lat": 40.521952,
+      "lng": 22.199968
+    }
+  },
+  {
+    "key": "key-barbara",
+    "type": "church",
+    "name": "Saint Barbara Church",
+    "coordinates": {
+      "lat": 40.527409,
+      "lng": 22.204056
+    }
+  },
+  {
+    "key": "key-anthony",
+    "type": "church",
+    "name": "Church of St. Anthony",
+    "coordinates": {
+      "lat": 40.526023,
+      "lng": 22.202940
+    }
+  },
+  {
+    "key": "key-peter",
+    "type": "church",
+    "name": "Holy Cathedral of St. Peter and Paul",
+    "coordinates": {
+      "lat": 40.521798,
+      "lng": 22.202779
+    }
+  },
+  {
+    "key": "key-george",
+    "type": "church",
+    "name": "Saint George Church",
+    "coordinates": {
+      "lat": 40.525371,
+      "lng": 22.201768
+    }
+  }
+]
