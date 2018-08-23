@@ -1,8 +1,8 @@
 [
   {
     "key": "key-kirikos",
-    "type": "church",
-    "name": "Church Saints Kirikos and Iouliti Veria",
+    "type": "Church Saints Kirikos and Iouliti Veria",
+    "name": "Kirikos and Iouliti",
     "coordinates": {
       "lat": 40.522752,
       "lng": 22.205311
@@ -10,8 +10,8 @@
   },
   {
     "key": "key-anargiros",
-    "type": "church",
-    "name": "Saints Anargyroi Church",
+    "type": "Saints Anargyroi Church",
+    "name": "Anargyroi",
     "coordinates": {
       "lat": 40.525671,
       "lng": 22.207779
@@ -19,8 +19,8 @@
   },
   {
     "key": "key-jesus",
-    "type": "church",
-    "name": "Church Jesus Christ's",
+    "type": "Church Jesus Christ's",
+    "name": "Jesus Christ",
     "coordinates": {
       "lat": 40.523632,
       "lng": 22.206363
@@ -28,8 +28,8 @@
   },
   {
     "key": "key-savvas",
-    "type": "church",
-    "name": "Saint Savvas of Kyriotissa",
+    "type": "Saint Savvas of Kyriotissa",
+    "name": "Savvas",
     "coordinates": {
       "lat": 40.520794,
       "lng": 22.204646
@@ -37,8 +37,8 @@
   },
   {
     "key": "key-pentecost",
-    "type": "church",
-    "name": "Free Apostolic Church of Pentecost",
+    "type": "Free Apostolic Church of Pentecost",
+    "name": "Pentecost",
     "coordinates": {
       "lat": 40.521952,
       "lng": 22.199968
@@ -46,8 +46,8 @@
   },
   {
     "key": "key-barbara",
-    "type": "church",
-    "name": "Saint Barbara Church",
+    "type": "Saint Barbara Church",
+    "name": "Barbara",
     "coordinates": {
       "lat": 40.527409,
       "lng": 22.204056
@@ -55,8 +55,8 @@
   },
   {
     "key": "key-anthony",
-    "type": "church",
-    "name": "Church of St. Anthony",
+    "type": "Church of St. Anthony",
+    "name": "Anthony",
     "coordinates": {
       "lat": 40.526023,
       "lng": 22.202940
@@ -64,8 +64,8 @@
   },
   {
     "key": "key-peter",
-    "type": "church",
-    "name": "Holy Cathedral of St. Peter and Paul",
+    "type": "Holy Cathedral of St. Peter and Paul",
+    "name": "Peter",
     "coordinates": {
       "lat": 40.521798,
       "lng": 22.202779
@@ -73,8 +73,8 @@
   },
   {
     "key": "key-george",
-    "type": "church",
-    "name": "Saint George Church",
+    "type": "Saint George Church",
+    "name": "George",
     "coordinates": {
       "lat": 40.525371,
       "lng": 22.201768

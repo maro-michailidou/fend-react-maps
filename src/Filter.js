@@ -14,8 +14,6 @@ class Filter extends Component {
     };
   }
 
-  locations = () => fetch("./locations.json");
-
   componentDidMount() {
     //When the app loads the markersFiltered state is passed to the props
     this.setState({
@@ -41,7 +39,7 @@ class Filter extends Component {
 
   updateList = () => {
     this.setState(prevState => ({
-      listOpened: !prevState.listIsOpen
+      listOpened: !prevState.listOpened
     }));
   };
 
@@ -147,13 +145,13 @@ class Filter extends Component {
             className="list-input"
             aria-labelledby="filter"
             type="text"
-            placeholder="Filter Locations..."
+            placeholder="Search for locations..."
             value={query}
             onChange={event => this.handleChangedQuery(event.target.value)}
           />
         </form>
 
-        {this.props.listOpened && (
+        {listOpened && (
           <ul className="locations-list">
             {locationsFiltered.map(location => (
               <li

@@ -9,7 +9,7 @@ class App extends Component {
     super(props);
     this.state = {
       //state of the variables needed for the app to run
-      locations: currentLocations.default,
+      locations: currentLocations,
       map: "",
       markers: [],
       boxOpened: false,
@@ -17,21 +17,18 @@ class App extends Component {
       information: ""
     };
   }
-
-  locations = () => fetch("./locations.json");
-
   // Handle invalid key on google maps script
   gm_authFailure = () => {
     window.alert("Google maps authentication error");
-  }
-  
+  };
+
   componentDidMount() {
-     // This will ensure authorization-fail handler gets invoked immediately
+    // This will ensure authorization-fail handler gets invoked immediately
     window.gm_authFailure = this.gm_authFailure;
     //loads the google map as soon as the app runs
     window.initMap = this.initMap;
     loadJS(
-      "https://maps.googleapis.com/maps/api/js?key=AIzaSyB_AnvKY1bA7EDGBQVxGF5EJMeu2MruYPM&callback=initMap"
+      "https://maps.googleapis.com/maps/api/js?key=AIzaSyDHQmuUZanQp42dV8KlcM_pcUx2jv0Nw4I&callback=initMap"
     );
   }
 
@@ -137,7 +134,7 @@ class App extends Component {
         <Filter
           list={this.state.locations}
           markers={this.state.markers}
-          openBox={this.openInfoWindow}
+          openBox={this.openBox}
         />
 
         {this.state.boxOpened && (

@@ -1,5 +1,4 @@
-/* GENERAL */
-/* ------------------------------ */
+/* The CSS of the entire app */
 * {
   margin: 0;
   padding: 0;
@@ -25,8 +24,7 @@ body,
   box-shadow: 0 0 3px rgba(170, 170, 170, 0.75);
 }
 
-/* FILTER LOCATIONS */
-/* ------------------------------ */
+/* The styling of the filter component */
 .list-form {
   max-width: 250px;
 }
@@ -74,8 +72,7 @@ body,
   cursor: pointer;
 }
 
-/* INFO WINDOW */
-/* ------------------------------ */
+/* The CSS code that styles the infowindow */
 .info-window-box {
   position: fixed;
   bottom: 0;
@@ -96,9 +93,8 @@ body,
   margin: 0 0 10px 0;
 }
 
-/* ATTRIBUTION */
-/* ------------------------------ */
-.attribution {
+/* The styling for the credits*/
+.credits {
   color: #aaa;
   font-style: bold;
   font-size: 0.8em;
