@@ -1,20 +1,18 @@
 import React, { Component } from "react";
 import escapeRegExp from "escape-string-regexp";
-import * as currentLocations from "./locations.json";
+import currentLocations from "./locations.json";
 
 class Filter extends Component {
   constructor(props) {
     super(props);
     this.state = {
       query: "",
-      locationsFiltered: currentLocations.default,
+      locationsFiltered: currentLocations,
       markersFiltered: [],
-      markerNow: {},
+      nowmarker: {},
       listOpened: true
     };
   }
-
-  locations = () => fetch("./locations.json");
 
   componentDidMount() {
     //When the app loads the markersFiltered state is passed to the props
@@ -41,7 +39,7 @@ class Filter extends Component {
 
   updateList = () => {
     this.setState(prevState => ({
-      listOpened: !prevState.listIsOpen
+      listOpened: !prevState.listOpened
     }));
   };
 
@@ -56,11 +54,11 @@ class Filter extends Component {
 
       // Adding a location to the array if its the same as the query
       fLocations = this.props.list.filter(location =>
-        match.test(location.title)
+        match.test(location.name)
       );
 
       // Adding a marker to the array if its the same as the query
-      fMarkers = this.props.markers.filter(marker => match.test(marker.title));
+      fMarkers = this.props.markers.filter(marker => match.test(marker.type));
 
       this.setState({
         locationsFiltered: fLocations,
@@ -102,7 +100,7 @@ class Filter extends Component {
     this.getMarkerNow(location);
 
     setTimeout(function() {
-      updateThis.props.openBox(updateThis.state.markerNow);
+      updateThis.props.openBox(updateThis.state.nowmarker);
     }, 1);
   };
 
@@ -128,7 +126,7 @@ class Filter extends Component {
       markerFiltered =>
         markerFiltered.id === location.key &&
         this.setState({
-          markerNow: markerFiltered
+          nowmarker: markerFiltered
         })
     );
   };
@@ -147,13 +145,13 @@ class Filter extends Component {
             className="list-input"
             aria-labelledby="filter"
             type="text"
-            placeholder="Filter Locations..."
+            placeholder="Search for locations..."
             value={query}
             onChange={event => this.handleChangedQuery(event.target.value)}
           />
         </form>
 
-        {this.props.listOpened && (
+        {listOpened && (
           <ul className="locations-list">
             {locationsFiltered.map(location => (
               <li
@@ -164,7 +162,7 @@ class Filter extends Component {
                 onClick={() => this.markerClicked(location)}
                 onKeyPress={() => this.markerClicked(location)}
               >
-                {location.title}
+                {location.name}
               </li>
             ))}
           </ul>
