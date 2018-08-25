@@ -28,7 +28,7 @@ class App extends Component {
     //loads the google map as soon as the app runs
     window.initMap = this.initMap;
     loadJS(
-      "https://maps.googleapis.com/maps/api/js?key=AIzaSyBo3lCapdQsXacp3sci5KKyz2rbCJh3AR0&callback=initMap"
+      "https://maps.googleapis.com/maps/api/js?key=AIzaSyCBwdQHCAp3zwCbUecTF3RktfP_M774pqA&callback=initMap"
     );
   }
 
@@ -39,7 +39,8 @@ class App extends Component {
     //Defining the map, its zoom level and its center
     let map = new window.google.maps.Map(document.getElementById("map"), {
       zoom: 14,
-      center: { lat: 40.636785, lng: 22.942852 }
+      center: { lat: 40.636785, lng: 22.942852 },
+      mapTypeId: google.maps.MapTypeId.HYBRID
     });
 
     //Keeping the state in sync with that of the map
@@ -50,17 +51,18 @@ class App extends Component {
     //Loop that creates a marker for each location from locations.json
     for (let i = 0; i < locations.length; i++) {
       //Defining the properties and their values still from the locations.json file
-      let coordinates = locations[i].coordinates;
+      let position = locations[i].coordinates;
       let type = locations[i].type;
       let id = locations[i].key;
-
       //Creating the marker as a unit
       let marker = new window.google.maps.Marker({
         map: map,
-        coordinates: coordinates,
+        position: position,
         type: type,
         animation: window.google.maps.Animation.DROP,
-        id: id
+        id: id,
+        icon:
+          "https://uploads.codesandbox.io/uploads/user/884ff08a-9eb7-4dbd-99d0-72c4ed044cea/Lsbi-icons8-marker-64.png"
       });
 
       //Push the markers into the state
@@ -94,7 +96,7 @@ class App extends Component {
       nowmarker: {}
     });
   };
-  //getting the information for the markers
+  //getting the information for the locations
   getInformation = marker => {
     let updateThis = this;
     //getting the url from wikipedia
@@ -136,14 +138,12 @@ class App extends Component {
           markers={this.state.markers}
           openBox={this.openBox}
         />
-
         {this.state.boxOpened && (
           <Infowindow
             nowmarker={this.state.nowmarker}
             information={this.state.information}
           />
         )}
-
         <div id="map" role="application" />
       </div>
     );

@@ -54,7 +54,7 @@ class Filter extends Component {
 
       // Adding a location to the array if its the same as the query
       fLocations = this.props.list.filter(location =>
-        match.test(location.name)
+        match.test(location.type)
       );
 
       // Adding a marker to the array if its the same as the query
@@ -101,6 +101,7 @@ class Filter extends Component {
 
     setTimeout(function() {
       updateThis.props.openBox(updateThis.state.nowmarker);
+      updateThis.props.openBox(location);
     }, 1);
   };
 

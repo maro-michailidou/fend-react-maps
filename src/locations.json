@@ -1,44 +1,44 @@
 [
   {
-    "key": "key-rotunda",
-    "type": "Rotunda of Galerius",
-    "name": "Rotunda of Galerius",
+    "key": "key-aristotelous-square",
+    "type": "Aristotelous Square",
+    "name": "Aristotelous Square",
     "coordinates": {
-      "lat": 40.634035,
-      "lng": 22.955125
+      "lat": 40.632351,
+      "lng": 22.940841
     }
   },
   {
-    "key": "key-hagia",
-    "type": "Hagia Sophia",
-    "name": "Hagia Sophia",
+    "key": "key-aristotle-university-thessaloniki",
+    "type": "Aristotle University of Thessaloniki",
+    "name": "Aristotle University of Thessaloniki",
     "coordinates": {
-      "lat": 40.632825,
-      "lng": 22.946831
+      "lat": 40.630796,
+      "lng": 22.959101
     }
   },
   {
-    "key": "key-white-tower",
-    "type": "White Tower",
-    "name": "White Tower",
+    "key": "key-port-thessaloniki",
+    "type": "Port of Thessaloniki",
+    "name": "Port of Thessaloniki",
     "coordinates": {
-      "lat": 40.626447,
-      "lng": 22.948402
+      "lat": 40.634854,
+      "lng": 22.923044
     }
   },
   {
-    "key": "key-ministry",
-    "type": "Ministry for Macedonia and Thrace",
-    "name": "Ministry for Macedonia and Thrace",
+    "key": "key-hagia-sophia",
+    "type": "Hagia Sophia, Thessaloniki",
+    "name": "Hagia Sophia, Thessaloniki",
     "coordinates": {
-      "lat": 40.640679,
-      "lng": 22.944363
+      "lat": 40.632833,
+      "lng": 22.946981
     }
   },
   {
-    "key": "key-panagia-chalkeon",
-    "type": "Panagia Chalkeon",
-    "name": "Panagia Chalkeon",
+    "key": "key-church-panagia-chalkeon",
+    "type": "Church of Panagia Chalkeon",
+    "name": "Church of Panagia Chalkeon",
     "coordinates": {
       "lat": 40.639382,
       "lng": 22.944531
@@ -46,8 +46,8 @@
   },
   {
     "key": "key-monastir-synagogue",
-    "type": "Monastir Synagogue",
-    "name": "Monastir Synagogue",
+    "type": "Monastir Synagogue (Thessaloniki)",
+    "name": "Monastir Synagogue (Thessaloniki)",
     "coordinates": {
       "lat": 40.639684,
       "lng": 22.941735
@@ -63,9 +63,9 @@
     }
   },
   {
-    "key": "key-international-exhibition",
-    "type": "Thessaloniki International Exhibition",
-    "name": "Thessaloniki International Exhibition",
+    "key": "key-thessaloniki-international-trade-fair",
+    "type": "Thessaloniki International Trade Fair",
+    "name": "Thessaloniki International Trade Fair",
     "coordinates": {
       "lat": 40.629454,
       "lng": 22.955261
@@ -73,8 +73,8 @@
   },
   {
     "key": "key-kaftanzoglio-stadium",
-    "type": "Kaftanzoglio National Stadium",
-    "name": "Kaftanzoglio National Stadium",
+    "type": "Kaftanzoglio Stadium",
+    "name": "Kaftanzoglio Stadium",
     "coordinates": {
       "lat": 40.625525,
       "lng": 22.966863
