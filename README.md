@@ -34,3 +34,20 @@ The project was created with:
 - react-router
 - react-router-dom
 - react-scripts
+
+## Component Hierarchy
+
+<App />
+--- <FilterLocations />
+--- <InfoWindow />
+
+- The App starts the google map and stores the wikipedia api (fetch jsonp)
+- The Filter component is filtering the markers and the locations (according to the search bar)
+- The Infowindow component is based on the wikipedia api and displays content from the wiki page of each location
+
+## Future changes:
+
+Those are things I don't have the time currently to do so they are written here for future documentation.
+
+- Put a slide menu to the app with links to sources
+- Change the map styles of this app
