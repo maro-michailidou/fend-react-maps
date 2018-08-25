@@ -1,83 +1,83 @@
 [
   {
-    "key": "key-kirikos",
-    "type": "Church Saints Kirikos and Iouliti Veria",
-    "name": "Kirikos and Iouliti",
+    "key": "key-aristotelous-square",
+    "type": "Aristotelous Square",
+    "name": "Aristotelous Square",
     "coordinates": {
-      "lat": 40.522752,
-      "lng": 22.205311
+      "lat": 40.632351,
+      "lng": 22.940841
     }
   },
   {
-    "key": "key-anargiros",
-    "type": "Saints Anargyroi Church",
-    "name": "Anargyroi",
+    "key": "key-aristotle-university-thessaloniki",
+    "type": "Aristotle University of Thessaloniki",
+    "name": "Aristotle University of Thessaloniki",
     "coordinates": {
-      "lat": 40.525671,
-      "lng": 22.207779
+      "lat": 40.630796,
+      "lng": 22.959101
     }
   },
   {
-    "key": "key-jesus",
-    "type": "Church Jesus Christ's",
-    "name": "Jesus Christ",
+    "key": "key-port-thessaloniki",
+    "type": "Port of Thessaloniki",
+    "name": "Port of Thessaloniki",
     "coordinates": {
-      "lat": 40.523632,
-      "lng": 22.206363
+      "lat": 40.634854,
+      "lng": 22.923044
     }
   },
   {
-    "key": "key-savvas",
-    "type": "Saint Savvas of Kyriotissa",
-    "name": "Savvas",
+    "key": "key-hagia-sophia",
+    "type": "Hagia Sophia, Thessaloniki",
+    "name": "Hagia Sophia, Thessaloniki",
     "coordinates": {
-      "lat": 40.520794,
-      "lng": 22.204646
+      "lat": 40.632833,
+      "lng": 22.946981
     }
   },
   {
-    "key": "key-pentecost",
-    "type": "Free Apostolic Church of Pentecost",
-    "name": "Pentecost",
+    "key": "key-church-panagia-chalkeon",
+    "type": "Church of Panagia Chalkeon",
+    "name": "Church of Panagia Chalkeon",
     "coordinates": {
-      "lat": 40.521952,
-      "lng": 22.199968
+      "lat": 40.639382,
+      "lng": 22.944531
     }
   },
   {
-    "key": "key-barbara",
-    "type": "Saint Barbara Church",
-    "name": "Barbara",
+    "key": "key-monastir-synagogue",
+    "type": "Monastir Synagogue (Thessaloniki)",
+    "name": "Monastir Synagogue (Thessaloniki)",
     "coordinates": {
-      "lat": 40.527409,
-      "lng": 22.204056
+      "lat": 40.639684,
+      "lng": 22.941735
     }
   },
   {
-    "key": "key-anthony",
-    "type": "Church of St. Anthony",
-    "name": "Anthony",
+    "key": "key-concert-hall",
+    "type": "Thessaloniki Concert Hall",
+    "name": "Thessaloniki Concert Hall",
     "coordinates": {
-      "lat": 40.526023,
-      "lng": 22.202940
+      "lat": 40.598265,
+      "lng": 22.948447
     }
   },
   {
-    "key": "key-peter",
-    "type": "Holy Cathedral of St. Peter and Paul",
-    "name": "Peter",
+    "key": "key-thessaloniki-international-trade-fair",
+    "type": "Thessaloniki International Trade Fair",
+    "name": "Thessaloniki International Trade Fair",
     "coordinates": {
-      "lat": 40.521798,
-      "lng": 22.202779
+      "lat": 40.629454,
+      "lng": 22.955261
     }
   },
   {
-    "key": "key-george",
-    "type": "Saint George Church",
-    "name": "George",
+    "key": "key-kaftanzoglio-stadium",
+    "type": "Kaftanzoglio Stadium",
+    "name": "Kaftanzoglio Stadium",
     "coordinates": {
-      "lat": 40.525371,
-      "lng": 22.201768
+      "lat": 40.625525,
+      "lng": 22.966863
     }
   }
 ]
