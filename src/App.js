@@ -40,7 +40,6 @@ class App extends Component {
     let map = new window.google.maps.Map(document.getElementById("map"), {
       zoom: 14,
       center: { lat: 40.636785, lng: 22.942852 },
-      mapTypeId: google.maps.MapTypeId.HYBRID
     });
 
     //Keeping the state in sync with that of the map
