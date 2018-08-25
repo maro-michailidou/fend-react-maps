@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import escapeRegExp from "escape-string-regexp";
-import * as currentLocations from "./locations.json";
+import currentLocations from "./locations.json";
 
 class Filter extends Component {
   constructor(props) {
     super(props);
     this.state = {
       query: "",
-      locationsFiltered: currentLocations.default,
+      locationsFiltered: currentLocations,
       markersFiltered: [],
-      markerNow: {},
+      nowmarker: {},
       listOpened: true
     };
   }
@@ -54,11 +54,11 @@ class Filter extends Component {
 
       // Adding a location to the array if its the same as the query
       fLocations = this.props.list.filter(location =>
-        match.test(location.title)
+        match.test(location.type)
       );
 
       // Adding a marker to the array if its the same as the query
-      fMarkers = this.props.markers.filter(marker => match.test(marker.title));
+      fMarkers = this.props.markers.filter(marker => match.test(marker.type));
 
       this.setState({
         locationsFiltered: fLocations,
@@ -100,7 +100,8 @@ class Filter extends Component {
     this.getMarkerNow(location);
 
     setTimeout(function() {
-      updateThis.props.openBox(updateThis.state.markerNow);
+      updateThis.props.openBox(updateThis.state.nowmarker);
+      updateThis.props.openBox(location);
     }, 1);
   };
 
@@ -126,7 +127,7 @@ class Filter extends Component {
       markerFiltered =>
         markerFiltered.id === location.key &&
         this.setState({
-          markerNow: markerFiltered
+          nowmarker: markerFiltered
         })
     );
   };
@@ -162,7 +163,7 @@ class Filter extends Component {
                 onClick={() => this.markerClicked(location)}
                 onKeyPress={() => this.markerClicked(location)}
               >
-                {location.title}
+                {location.name}
               </li>
             ))}
           </ul>
