@@ -4,13 +4,24 @@ This is the eighth project from Udacity's Front End Nanodegree.
 
 It utilises React's create-react-app template and the Google Maps API to create an app that shows a series of interesting locations at the greek city of Thessaloniki.
 
-## How to use the app:
+## How to run the app:
 
-- You will need node to run the npm commands: https://nodejs.org/en/
-- clone the repository through your terminal with: git clone https://github.com/MariaMich/fend-react-maps
-- Go to the root of this repository
-- Use npm install to download and install all the dependecies (they are listed below)
-- Use npm start
+The app has a development and a production mode. You need to follow the steps below to access each mode:
+
+# Devolopment mode:
+- Download or clone the repository
+- Install all dependencies with npm install
+- Start the server with npm start
+- Visit http://localhost:3000
+
+# Production mode:
+- Download or clone the repository
+- Install all dependencies with npm install
+- Build and start the server with npm build
+- Visit http://localhost:5000
+
+Note that the service worker is only available in the production build of the app.
+(More on the production build: https://reactjs.org/docs/optimizing-performance.html)
 
 ## General Info:
 
