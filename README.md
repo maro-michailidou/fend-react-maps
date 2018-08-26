@@ -49,13 +49,15 @@ The project was created with:
 
 ## Component Hierarchy
 
+
 <App />
 --- <FilterLocations />
 --- <InfoWindow />
 
-- The App starts the google map and stores the wikipedia api (fetch jsonp)
-- The Filter component is filtering the markers and the locations (according to the search bar)
-- The Infowindow component is based on the wikipedia api and displays content from the wiki page of each location
+
+ The App starts the google map and stores the wikipedia api (fetch jsonp)
+ The Filter component is filtering the markers and the locations (according to the search bar)
+ The Infowindow component is based on the wikipedia api and displays content from the wiki page of each location
 
 ## Future changes:
 
