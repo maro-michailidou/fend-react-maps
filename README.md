@@ -8,19 +8,20 @@ It utilises React's create-react-app template and the Google Maps API to create 
 
 The app has a development and a production mode. You need to follow the steps below to access each mode:
 
-# Devolopment mode:
+### Devolopment mode:
 - Download or clone the repository
 - Install all dependencies with npm install
 - Start the server with npm start
 - Visit http://localhost:3000
 
-# Production mode:
+### Production mode:
 - Download or clone the repository
 - Install all dependencies with npm install
 - Build and start the server with npm build
 - Visit http://localhost:5000
 
 Note that the service worker is only available in the production build of the app.
+
 (More on the production build: https://reactjs.org/docs/optimizing-performance.html)
 
 ## General Info:
